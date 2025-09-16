@@ -110,3 +110,32 @@ Kode ini berfungsi untuk validasi input menu. Program mencoba membaca input peng
 <img width="609" height="278" alt="image" src="https://github.com/user-attachments/assets/133f61f5-8f4a-44a5-a98d-cca8ec21a740" />
 
 otongan kode switch tersebut berfungsi sebagai menu utama untuk mengatur alur program. Pada bagian ini, setiap pilihan yang dimasukkan pengguna akan diarahkan ke metode tertentu, seperti create() untuk menambah data baru, read() untuk menampilkan seluruh data, update() untuk mengubah data, delete() untuk menghapus data, dan search() untuk mencari data. Jika pengguna memilih opsi 6, maka program akan menampilkan pesan “Terima kasih!” sekaligus keluar dari perulangan. Struktur do-while memastikan menu akan terus ditampilkan dan dapat digunakan berulang kali selama pengguna belum memilih keluar. Setelah keluar, scanner ditutup agar tidak ada lagi input yang diproses.
+
+# Output
+<img width="423" height="175" alt="image" src="https://github.com/user-attachments/assets/1855ded5-d68c-44b5-b520-43fec790f170" />
+
+Output ini merupakan menu utama dari Sistem Manajemen Coworker Space yang berfungsi sebagai antarmuka berbasis teks untuk pengguna. Pada menu ini terdapat beberapa opsi yang dapat dipilih, antara lain menambahkan data coworker space baru, melihat daftar coworker space yang sudah ada, mengubah data coworker space, menghapus data, hingga mencari coworker space berdasarkan kode atau nama. Selain itu, tersedia juga opsi untuk keluar dari program. Setelah daftar menu ditampilkan, pengguna diminta untuk memasukkan angka sesuai dengan pilihan yang diinginkan melalui perintah Pilih menu:. Tampilan ini akan terus muncul berulang setiap kali pengguna selesai menjalankan suatu fitur, sampai akhirnya memilih opsi keluar.
+
+<img width="366" height="255" alt="image" src="https://github.com/user-attachments/assets/4ff817c1-bfa3-410e-8e2e-09ba028a1c2c" />
+
+Output kali ini menunjukkan proses ketika pengguna memilih menu 1. Tambah Space Coworker pada sistem. Setelah memilih opsi tersebut, program meminta input berupa kode ruang, nama ruang, dan kapasitas ruang. Pada contoh ini, pengguna memasukkan kode ruang c505, nama ruang Ruang musik, dan kapasitas 10. Setelah semua data berhasil dimasukkan, program menampilkan pesan "Data berhasil ditambahkan!" sebagai konfirmasi bahwa data coworker space baru telah tersimpan di dalam sistem. Hal ini menggambarkan fungsi create yang bekerja dengan menambahkan data baru ke dalam daftar coworker space.
+
+<img width="491" height="311" alt="image" src="https://github.com/user-attachments/assets/fdceec91-6b2e-4901-9b58-a5e4559ee7df" />
+
+Output berikut menunjukkan hasil ketika pengguna memilih menu 2. Lihat Daftar Space Coworker. Setelah opsi ini dipilih, sistem menampilkan seluruh data coworker space yang sudah tersimpan. Pada contoh ini, terdapat empat data ruang, yaitu: C101 - Ruang meeting (kapasitas 10), C102 - Ruang meeting 2 (kapasitas 20), C103 - Ruang sidang (kapasitas 15), dan c505 - Ruang musik (kapasitas 10). Tampilan ini merupakan hasil dari fitur read, yang berfungsi untuk menampilkan daftar coworker space secara terurut sesuai dengan data yang telah dimasukkan sebelumnya. Dengan adanya menu ini, pengguna dapat dengan mudah melihat data ruang yang tersedia.
+
+<img width="505" height="405" alt="image" src="https://github.com/user-attachments/assets/0d3ecf23-deb5-414d-9f7b-a7ca37659fc5" />
+
+Output ini menunjukkan hasil ketika pengguna memilih menu 3. Ubah Data Space Coworker. Setelah memilih opsi tersebut, sistem menampilkan daftar coworker space yang tersedia, kemudian meminta pengguna untuk menentukan nomor data yang ingin diubah. Pada contoh ini, pengguna memilih data nomor 4, yaitu ruang dengan kode c505. Selanjutnya, pengguna memasukkan data baru berupa kode c405, nama Ruang musik, dan kapasitas 20. Setelah proses selesai, sistem menampilkan pesan “Data berhasil diubah!” sebagai konfirmasi bahwa perubahan data berhasil dilakukan. Hal ini membuktikan bahwa fitur update berfungsi dengan baik dalam memperbarui data coworker space yang sudah ada.
+
+<img width="478" height="339" alt="image" src="https://github.com/user-attachments/assets/bc979940-c7e9-45d1-bb62-6676e4edb8c3" />
+
+Output pada gambar ini menunjukkan hasil ketika pengguna memilih menu 4. Hapus Space Coworker. Setelah opsi tersebut dipilih, sistem menampilkan daftar coworker space yang tersedia. Pengguna kemudian diminta untuk memilih nomor data yang ingin dihapus, dalam hal ini nomor 4, yaitu ruang dengan kode c405 dan kapasitas 20. Setelah konfirmasi input, sistem menampilkan pesan “Data berhasil dihapus!” sebagai tanda bahwa data telah dihapus dari daftar. Hal ini membuktikan bahwa fitur delete bekerja dengan baik untuk menghapus data coworker space yang dipilih oleh pengguna.
+
+<img width="542" height="245" alt="image" src="https://github.com/user-attachments/assets/1885ba4d-a4b3-4b36-a4f1-cb0075c9c398" />
+
+Output ini memperlihatkan hasil ketika pengguna memilih menu 5. Cari Space Coworker. Sistem meminta input berupa kode atau nama ruang, lalu pengguna memasukkan kata kunci “meeting”. Program kemudian melakukan pencarian pada daftar coworker space, dan hasilnya menampilkan dua data yang cocok, yaitu Kode: C101, Nama: Ruang meeting, Kapasitas: 10 dan Kode: C102, Nama: Ruang meeting 2, Kapasitas: 20. Hal ini menunjukkan bahwa fitur search berjalan dengan baik, mampu menampilkan semua data yang mengandung kata kunci sesuai input pengguna.
+
+<img width="385" height="191" alt="image" src="https://github.com/user-attachments/assets/6045df58-5aa4-4157-af0d-aaafa9e70f0b" />
+
+Output ini menunjukkan kondisi ketika pengguna memilih menu 6 (Keluar) dari program. Setelah memilih opsi tersebut, sistem langsung menampilkan pesan “Terima kasih!” sebagai penutup, kemudian program berhenti berjalan. Hal ini menandakan bahwa fitur keluar sudah berfungsi dengan baik, yaitu mengakhiri proses aplikasi dengan menampilkan pesan perpisahan yang sederhana.
